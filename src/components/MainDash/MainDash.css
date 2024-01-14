@@ -1,0 +1,181 @@
+.maindash-container {
+  padding: 4rem;
+}
+
+.maindash-heading-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.mainDash-createBooking {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.booking-type-title {
+  font-weight: 600;
+}
+.create-booking-btn {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 2px;
+  padding: 8px 10px 8px 8px;
+  background-color: #ffffff;
+  color: #0072eb;
+  border: 1px solid #0072eb;
+  border-radius: 5px;
+  width: 240px;
+  cursor: pointer;
+}
+
+.create-booking-btn:hover {
+  background-color: #0072eb;
+  color: #ffffff;
+}
+
+.embed-view-buttons-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.embed-booking-btn,
+.view-booking-btn {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  gap: 2px;
+  padding: 8px 10px 8px 8px;
+  background-color: #ffffff;
+  color: #82868a;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.embed-booking-btn:hover {
+  background-color: #82868a;
+  color: #ffffff;
+}
+.view-booking-btn:hover {
+  background-color: #82868a;
+  color: #ffffff;
+}
+.cards-container {
+  padding: 4rem 0rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.booking-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  box-shadow: 1px 3px 7px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.booking-card > div:nth-child(2) {
+  max-height: 100px;
+  overflow-x: auto;
+}
+
+.title-url-duration {
+  padding: 20px;
+}
+.title-url-duration h5 {
+  color: #0072eb;
+  margin: 10px 0px 10px 0px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+.title-url-duration h3 {
+  max-height: 100px;
+  overflow-y: auto;
+}
+.title-url-duration hr {
+  width: 100%;
+  background-color: #ddd;
+  height: 1px;
+}
+.toggle {
+  background-color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.toggle-button div {
+  background-color: #ffffff;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+.on {
+  color: #0072eb;
+}
+
+.duration-booking-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+.booking-discription {
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
+
+.booking-share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  color: #9fa3a7;
+  font-size: 20px;
+}
+
+.booking-share p {
+  font-size: 15px;
+}
+
+.embed {
+  color: #9fa3a7;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.Delete-clone-edit {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
+.delete {
+  background-color: #ffffff;
+  color: #e70303;
+  cursor: pointer;
+}
+.clone,
+.edit {
+  background-color: #ffffff;
+  color: #0072eb;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .maindash-container {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,15 @@
+.signup {
+  border: none !important;
+}
+.signup-heading {
+  margin-bottom: 20px;
+}
+.signup_register {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+}
+.error-message {
+  font-size: 13px;
+  color: #ff0000;
+}
